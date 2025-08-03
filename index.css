@@ -1,0 +1,420 @@
+
+/* Animatsiya uchun boshlang‘ich holat */
+.animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-in-out;
+}
+
+/* Ko‘rinadigan bo‘lganda */
+.animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* main navigation*/
+
+body{
+    background-color: rgb(218, 226, 235);
+}
+.main_navigation_items{
+    margin: 15px 0px 0px 410px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #ffff;
+    width: 700px;
+    height: 27px;
+}
+.main_navigation_item{
+    display: inline-block;
+    text-align: center;
+}
+.main_navigation_item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    color: black;
+}
+.main_navigation_item a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+a.active {
+  color: blue;
+}
+a:active{
+    color: blue;
+}
+/*main header*/
+.main_header_relative_box_1{
+
+    width: 370px;
+    height: 600px;
+    margin: 70px 0px 0px 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+
+}
+.main_header_my_image img{
+    text-align: center;
+    margin: 25px 0px 0px 50px;
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+}
+.main_header_my_name{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_header_about_me{
+    text-align: center;
+    font-weight: 900;
+   font-family: 'Poppins', sans-serif;
+}
+.outline {
+  color: transparent;
+  -webkit-text-stroke: 1px black; /* Kontur efekti */
+  font-weight: 1000;
+}
+.main_header_mytelegram{
+    font-size: 30px;
+    margin:7px 0px 0px 100px;
+    text-decoration: none;
+    color: blue;
+}
+.main_header_mytelegram :hover{
+    color: black;
+}
+.main_header_myinstagram{
+    font-size: 30px;
+    margin:7px 0px 0px 20px;
+    text-decoration: none;
+    color: red;
+}
+.main_header_myinstagram :hover{
+    color: black;
+}
+.main_header_myfacebook{
+    font-size:30px;
+    margin:7px 0px 0px 20px;
+    text-decoration: none;
+    color: blue;
+}
+.main_header_myfacebook:hover{
+    color: black;
+}
+/*main section*/
+.main_section_relative_box_2{
+    position: relative;
+    width: 1045px;
+    height: 450px;
+    float:right;
+    background-color: white;
+    margin:-600px 45px 0px 0px ;
+    border-radius: 12px;
+}
+.main_section_hello{
+    margin: 25px 0px 0px 45px;
+    text-transform: uppercase;
+}
+.main_section_about_me{
+    margin: 25px 0px 0px 45px;
+    text-transform: uppercase;
+    font-size: 37px;
+}
+.div{
+    background-color: green;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 50px 0px 0px 45px;
+}
+.main_section_freelancing{
+    margin: -20px 0px 0px 75px;
+}
+.main_section_button{
+    width: 152px;
+    height: 42px;
+    margin: 25px 0px 0px 45px;
+    border-radius: 12px;
+    background-color: green;
+    border-style:none;
+    cursor: pointer;
+}
+.main_section_button a{
+    color:#ffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main_section_relative_box_3{
+    position: relative;
+    width: 1045px;
+    height: 134px;
+    background-color: white;
+    margin: 90px 45px 0px 0px ;
+    border-radius: 12px;
+}
+.main_section_relative_box_3_h1{
+    text-align: center;
+    margin:0px 0px 0px 45px ;
+    padding-top: 37px;
+    font-size: 32px;
+    color: #9ca3af; 
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+    
+/*sevices*/
+
+.section_container{
+    background-color: #ffff;
+    border-radius: 12px;
+    width: 1435px;
+    height: 680px;
+    margin: 70px 0px 0px 45px;
+    text-align: center;
+}
+.section_container_p{
+    padding: 67px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.section_container_h1{
+    margin-top: -10px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.section_container_boxes {
+    display: flex;
+    justify-content: center; /* markazga joylashtirish */
+    gap: 30px; /* oraliq */
+    margin-top: 90px;
+}
+.section_container_box1,
+.section_container_box2,
+.section_container_box3 {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 425px;
+    height: 300px;
+    padding-top: 50px;
+}
+.section_container_network_icon{
+    font-size: 64px;
+    float: left;
+    margin-left: 45px;
+}
+.section_container_network_icon i{
+    display: block;
+}
+.section_container_h3{
+    font-size: 32px;
+    font-family: sans-serif;
+}
+.icon_network{
+    width: 45px;
+    height: 45px;
+}
+.section_container_p_2{
+    font-size: 17px;
+}
+/*pro skills*/
+.pro-skills{
+    position: relative;
+    background-color: #ffffff;
+    margin: 70px 0px 0px 45px;
+    border-radius: 12px;
+    width: 1435px;
+    height: 700px;
+    text-align: center;
+    padding: 67px 0px 0px 0px;
+    text-transform: uppercase;
+  
+}
+.pro_skills_p{
+    font-size: 17px;
+}
+.pro_skills_h1{
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex-container{
+    display: flex;
+    padding: 20px;
+    background-color:#ffff;
+    border-radius: 12px;
+}
+.flex_item{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 100px 140px;
+    background-color: #ffffff;
+    margin: 10px 0px 0px 45px;
+    border-radius: 12px;
+}
+.flex-container_2{
+    margin-top: 18px;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.flex_item_2{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 100px 140px;
+    background-color: #ffffff;
+    margin: 10px 0px 0px 45px;
+    border-radius: 12px;
+}
+.my_skills{
+    display: flex;
+    margin:25px 0px 0px 42px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.my_skills_icon{
+    width: 300px;
+    height: 250px;
+    background-color:#ffff; 
+    border-radius: 12px;
+     border: solid 2px;
+    
+}
+.my_skills_photoshop_button,
+.my_skills_figma_button,
+.my_skills_javascript_button,
+.my_skills_python_button{
+    background-color:#00901f;
+    color: #ffff;
+    border-radius: 12px;
+    margin-top: 25px;
+    width: 250px;
+    height: 32px;
+    border-style: none;
+}
+.my_skills_name{
+    margin: 0px 0px 0px 0px ;
+}
+.my_skills_icon img{
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+
+}
+/*contact*/
+
+.main_contact_section{
+    position: relative;
+    background-color: #ffffff;
+    margin: 70px 0px 0px 45px;
+    border-radius: 12px;
+    width: 1435px;
+    height: 700px;
+    padding: 67px 0px 0px 0px;
+}
+.main_contact_section_p,
+.main_contact_section_h1{
+    text-transform: uppercase; 
+    text-align: center;
+}
+.main_contact_header_items{
+    position: relative;
+    width: 370px;
+    height: 520px;
+    margin: 50px 0px 0px 45px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: solid 2px;
+}
+.main_contact_header_items_icon{
+    font-size: 32px;
+    color: #00901f;
+    display: block;
+}
+.main_contact_header_items_ouroffice ,
+.main_contact_header_items_contactnumber,
+.main_contact_header_items_email{
+    font-size: 24px;
+    margin: 32px 0px 0px 45px;
+}
+.uzbekiston ,
+.my_number,
+.my_email{
+    font-size: 17px;
+    margin: -7px 0px 0px 0px;
+}
+.main_contact_section_2{
+    position: relative;
+    width: 945px;
+    height: 520px;
+    float: right;
+    background-color: white;
+    margin: -550px 70px 0px 0px;
+    border-radius: 12px;
+    border:solid 2px;
+}
+.section_your_message{
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: horizontal;
+  overflow: auto;
+}
+/* join me */
+
+.section_form_items{
+    text-transform: uppercase;
+    margin: 30px 0px 0px 45px ;
+}
+.section_form_items_name_text{
+    width: 300px;
+    height: 52px;
+    border-radius: 12px;
+    margin-top: 24px;
+    background-color: #eeeeee;
+
+}
+.section_form_items_email{
+    position: relative;
+    float: right;
+    margin: -102px 300px 0px 0px ;
+}
+.section_form_items_email_text{
+    position: relative;
+    float: right;
+    margin: -57px 135px 0px 0px ;
+    width: 300px;
+    height: 52px;
+    border-radius: 12px;
+    background-color: #eeeeee;
+
+}
+.message_box_your_message{
+    display: block;
+    text-transform: uppercase;
+    margin: 12px 0px 0px 45px;
+}
+.message-box_write{
+    width: 786px;
+    height: 142px;
+    margin: 12px 0px 0px 45px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+.send-button{
+
+    width: 270px;
+    height: 52px;
+    margin: 30px 0px 0px 45px ;
+    border-radius: 12px;
+    background-color: #00901f;
+    border-style: none;
+}
+.send-button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
